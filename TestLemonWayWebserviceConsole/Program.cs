@@ -31,7 +31,7 @@ namespace TestLemonWayWebserviceConsole
 
                 string xmlbad = @"<foo>hello</bar>";
 
-                Console.WriteLine("now the bad xml one ==============> " + xmlbad + " <======================");
+                Console.WriteLine("now the bad xml one ==============> " + xmlbad + " <=======================");
                 Console.WriteLine(service.Xml_To_Json(xmlbad));
                 Console.ReadLine();
             }
