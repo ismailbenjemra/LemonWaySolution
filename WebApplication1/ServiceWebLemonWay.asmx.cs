@@ -22,7 +22,7 @@ namespace WebApplication1
         [WebMethod]
         public string HelloWorld()
         {
-            return "Hello World";
+            return "Hello World Marhaba";
         }
 
         [WebMethod]
