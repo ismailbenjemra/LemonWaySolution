@@ -63,7 +63,7 @@ namespace WebApplication1
             }
             catch (Exception ex)
             {
-                return "Bad Xml format";
+                return "Bad Xml format"+ex.InnerException.ToString();
             }
         }
     }
